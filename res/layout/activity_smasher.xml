@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}"
+    android:id="@+id/smasherMain" >
+    
+    <RelativeLayout
+        android:id="@+id/smasher1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" >
+        <ImageView android:id="@+id/nextSmashBox1"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/smashBox1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    	<TextView
+        	android:id="@+id/points1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/smasher2" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" >
+        <ImageView android:id="@+id/nextSmashBox2"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/smashBox2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    	<TextView
+        	android:id="@+id/points2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/smasher3" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" >
+        <ImageView android:id="@+id/nextSmashBox3"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/smashBox3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    	<TextView
+        	android:id="@+id/points3"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/smasher4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true" >
+        <ImageView android:id="@+id/nextSmashBox4"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/smashBox4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    	<TextView
+        	android:id="@+id/points4"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true" />
+    </RelativeLayout>
+	
+    <TextView
+        android:id="@+id/countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#bebebe"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TAP THE COLORED TILES. THE BLACK TILES SHOW YOU WHAT'S NEXT" />
+    
+</RelativeLayout>
